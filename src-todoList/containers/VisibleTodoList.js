@@ -23,6 +23,7 @@ const mapStateToProps = state => {
   };
 };
 
+// 只会在页面初始化时执行一次
 const mapDispatchToProps = dispatch => {
   return {
     onTodoClick: id => {
