@@ -32,6 +32,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
+// 连接操作不会改变原来的组件类,而是返回一个新的已于 redux store 连接的组件类
 const VisibleTodoList = connect(
   mapStateToProps,
   mapDispatchToProps
